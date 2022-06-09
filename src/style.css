@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.l-main {
+  position: fixed;
+  pointer-events: none;
+}
+
+.l-main .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  user-select: none;
+  color: #FFF;
+}
+
+.l-main .-main {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+}
+.l-main .-sub {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.0001;
+}
+
+
+@media screen and (max-width:900px) {
+}
+
+
+
+
+
+.link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 12px;
+  color: inherit;
+  text-decoration: underline;
+  color: #FFF;
+  background-color: #000;
+  z-index: 9999;
+}
